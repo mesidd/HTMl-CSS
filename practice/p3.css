@@ -1,0 +1,30 @@
+#outer{
+  border: 2px solid black;
+  height: 200px;
+  width: 70px;
+}
+.inner{
+  border: 2px solid black;
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+  border-radius: 50%;
+}
+#first{
+  background-color: red;
+
+}
+#second{
+  background-color: yellow;
+}
+#third{
+  background-color: green;
+}
+h1{
+  display: inline;
+  font-size: 100px;
+  border: 2px solid black;
+  width: 100%;
+  padding-left: 1em;
+  padding-right: 1em;
+}

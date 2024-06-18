@@ -1,0 +1,17 @@
+#one
+{
+  height: 300px;
+  width: 300px;
+  background-color: rgb(231, 120, 120);
+  position: relative;
+  z-index: 1;
+}
+#two
+{
+  height: 300px;
+  width: 300px;
+  bottom: 150px;
+  background-color: rgb(135, 231, 120);
+  position: relative;
+  z-index: 0;
+}

@@ -1,0 +1,19 @@
+div{
+  text-align: center;
+  font-size: 50px;
+    /* border: 2px solid ; */
+    height: 200px;
+    width: 200px;
+    background-color: rgb(159, 159, 235);
+    margin: 10px auto;
+    box-shadow: 5px 5px 11px yellow;
+  }
+  div + #image{
+    height: 800px;
+    text-align: center;
+    width: 500px;
+    background-image: url(img.jpeg);
+box-shadow: none;
+background-size: contain;
+/* color: white; */
+  }

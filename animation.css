@@ -1,0 +1,42 @@
+#box{
+  height: 300px;
+
+  /* width: 400px; */
+  background-color: orange;
+  /* animation-name: fontAnimation;
+  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
+  animation-direction: normal; */
+
+  /* animation:fontAnimation 3s ease-out 0s infinite normal ;
+  animation: percent 4s ease-out 0s infinite normal ; */
+}
+h1{
+  text-align: center;
+  background-color: blue;
+}
+@keyframes fontAnimation {
+  from{background-color: green;}
+  to{background-color: pink;} 
+  from{font-size: 20px;}
+  to{font-size: 40px;}
+} 
+@keyframes percent 
+  {
+    0%{background-color: yellow;}
+  100%{background-color: green;}
+  
+  
+}
+@media (min-width: 200px)
+{
+  h1{
+    background-color: hotpink;
+  }
+}
+@media (orientation: landscape){
+#box{
+  background-color: blue;
+}
+}
